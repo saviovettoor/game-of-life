@@ -11,7 +11,7 @@ pipeline{
     }
     post {
         always {
-            archive 'gameoflife.tar.gz'
+            archiveArtifacts 'gameoflife.tar.gz'
         }
         
     }
