@@ -11,7 +11,7 @@ pipeline{
     }
     post {
         always {
-            archiveArtifacts 'gameoflife.tar.gz'
+            archiveArtifacts artifacts:  'gameoflife.tar.gz', fingerprint: true
         }
         
     }
