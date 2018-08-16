@@ -11,7 +11,7 @@ pipeline{
     }
     post {
         always {
-            archive 'target/easyb/gameoflife.tar.gz'
+            archive 'gameoflife.tar.gz'
         }
         
     }
